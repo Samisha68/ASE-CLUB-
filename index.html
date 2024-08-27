@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASE HACKATHON</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="ASE_LOGO_WHITE_SVG.svg"  alt="Logo"></a>
+            <div class="nav-links"  id="navlinks">
+                <i class="fa-solid fa-list" onclick="hidemenu()"></i>               <!-- <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i> -->
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#footer">ABOUT US</a></li>
+                    <li><a href="#Blogs">BLOGS</a></li>
+                    <li><a href="#Members">MEMBERS</a></li>
+                    <li><a href="email@gmail.com">CONTACT US</a></li>
+                </ul>
+            </div>
+            
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>ADVANCED SOFTWARE ENGINEERING </h1>
+            <p>Innovating the Future Through Research and Development , Where Ideas Become Reality!<br> Crafted with Passion and Precision by the ISE Department of NMIT – The ASE Club Welcomes You!</p>
+            <a href="https://unstop.com/" class="visit-button">Register now !!</a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- COURSES  -->
+    <section class="course" id="Blogs">
+        <h1>DIVE INTO INNOVATION</h1>
+        <p>The ASE Club Blog Chronicles</p>
+        <div class="row">
+            <div class="col">
+                <h3>Blah 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur a doloribus fugit id voluptas omnis dolores, similique nostrum sed praesentium eaque eveniet nobis accusamus adipisci quibusdam eos architecto dignissimos facilis!</p>
+            </div>
+            <div class="col">
+                <h3>Blah2</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur a doloribus fugit id voluptas omnis dolores, similique nostrum sed praesentium eaque eveniet nobis accusamus adipisci quibusdam eos architecto dignissimos facilis!</p>
+            </div>
+            <div class="col">
+                <h3>Blah3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur a doloribus fugit id voluptas omnis dolores, similique nostrum sed praesentium eaque eveniet nobis accusamus adipisci quibusdam eos architecto dignissimos facilis!</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- CAMPUS -->
+    <section class="campus" id="Members">
+        <h1>HALL OF FAME</h1>
+        <p>Meet the Team !!</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="20231219_172923.jpg">
+                <div class="layer">
+                    <h3>Kartika</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="IMG_20231219_202313565.jpg">
+                    <div class="layer">
+                        <h3>Abhishek</h3>
+                    </div>
+            </div>
+            <div class="campus-col">
+                <img src="IMG_20231220_184030595.jpg">
+                    <div class="layer">
+                        <h3>Some Cats</h3>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<section class="cta" id="cta">
+    <h1>Become a member today and kickstart your journey with us</h1>
+    <a href="gform" class="visit-button">JUST A CLICK AWAY!</a>
+</section>
+
+
+<!--  FOOTER SECTION   -->
+<section class="footer" id="footer">
+    <h4>About Us</h4>
+    <p>At ASE Club, we’re a lively community of innovators from NMIT’s ISE department, passionate about turning groundbreaking ideas into reality.<br/> Dive into our world of research, development, and design, and join us in shaping the future with creativity and collaboration!</p>
+
+</section>
+
+
+    <!-- JAVASCRIPT CODE AHEAD !!  -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
